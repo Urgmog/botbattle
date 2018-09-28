@@ -10,7 +10,7 @@ const queue = new Map();
 
 var servers = {};
 
-client.login("NDk0NTAwODk5MDM3NzczODQy.Do7Dug.6_kk9FY2g09ja4outpAGv35ayBc");
+client.login("process.env.TOKEN");
 
 function play(connection, message) {
   
